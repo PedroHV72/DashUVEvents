@@ -4,11 +4,13 @@ function Aside() {
   return (
     <>
       <aside className="py-6 px-10 w-60 bg-primary">
+        <div className="bg-white p-5 rounded-md">
         <img src="https://universidadedevassouras.edu.br/wp-content/uploads/2021/12/logo_horizontal_univasso.svg" alt="" className="w-36" />
+        </div>
         <ul className="flex flex-col gap-y-6 pt-10">
           <li>
             <Link 
-              to="#"
+              to="/"
               className="flex gap-x-4 items-center py-2 text-white hover:text-gray-200 group"
             >
               <span className="absolute w-1.5 h-8 bg-[#01f0C8] rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span>
@@ -90,7 +92,7 @@ function Aside() {
           </li>
           <li>
             <Link
-              to="#"
+              to="/events"
               className="flex gap-x-4 items-center py-2 text-white hover:text-gray-200 group"
             >
               <span className="absolute w-1.5 h-8 bg-[#01f0C8] rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span>
