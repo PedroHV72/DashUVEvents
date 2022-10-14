@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   flex: 1;
-  border-right: 0.5px solid rgb(230, 227, 227);
   min-height: 100vh;
-  background-color: white;
+  background-color: #6e61c6;
 
   .top {
-    background-color: #FFF;
     height: 50px;
     display: flex;
     align-items: center;
@@ -16,7 +14,7 @@ export const Container = styled.div`
     .logo {
       font-size: 20px;
       font-weight: bold;
-      color: #6D1D20;
+      color: white;
     }
   }
 

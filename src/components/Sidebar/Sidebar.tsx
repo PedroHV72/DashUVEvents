@@ -11,7 +11,6 @@ function Sidebar() {
       <div className="top">
         <span className="logo">Dashboard</span>
       </div>
-      <hr />
       <div className="center">
         <ul>
           <Link to="/">
