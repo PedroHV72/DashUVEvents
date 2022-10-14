@@ -1,76 +1,8 @@
+import React from "react"
+import User from "../../assets/images/user_photo.png";
 
 function UsersTable() {
   return (
-      // <div className="flex flex-col">
-      //     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-      //         <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-      //             <div className="overflow-hidden">
-      //                 <table className="min-w-full">
-      //                     <thead className="bg-white border-b">
-      //                         <tr>
-      //                             <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-      //                                 First
-      //                             </th>
-      //                             <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-      //                                 Last
-      //                             </th>
-      //                             <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-      //                                 Handle
-      //                             </th>
-      //                             <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-      //                                 Id
-      //                             </th>
-      //                         </tr>
-      //                     </thead>
-      //                     <tbody>
-      //                         <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-      //                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-      //                                 1
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 Mark
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 Otto
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 @mdo
-      //                             </td>
-      //                         </tr>
-      //                         <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-      //                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-      //                                 @fat
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 Jacob
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 Thornton
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 2
-      //                             </td>
-      //                         </tr>
-      //                         <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-      //                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-      //                                 @twitter
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 Larry
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 Wild
-      //                             </td>
-      //                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-      //                                 3
-      //                             </td>
-      //                         </tr>
-      //                     </tbody>
-      //                 </table>
-      //             </div>
-      //         </div>
-      //     </div>
-      // </div>
       <div className="sm:px-6 w-full">
           <div className="bg-white py-4 md:py-7 px-4 md:px-8 xl:px-10">
               <div className="sm:flex items-center justify-between">
@@ -78,13 +10,6 @@ function UsersTable() {
                       
                   </div>
                   <div className="flex">
-                      {/* <div className="py-3 mr-4 px-4 flex items-center text-sm font-medium leading-none text-gray-600 bg-gray-200 hover:bg-gray-300 cursor-pointer rounded-full">
-                          <p>Filtrar</p>
-                          <select aria-label="select" className="focus:text-indigo-600 focus:outline-none bg-transparent ml-1">
-                              <option className="text-sm text-indigo-800">Recentes</option>
-                              <option className="text-sm text-indigo-800">Últimos</option>
-                          </select>
-                      </div> */}
                       <div className="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 mt-4 sm:mt-0 inline-flex items-center justify-center px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded-full">
                           <button className="">
                               <p className="text-sm font-medium leading-none text-white">Add Usuário</p>
@@ -95,7 +20,7 @@ function UsersTable() {
               <div className="mt-7 overflow-x-auto">
                   <table className="w-full whitespace-nowrap">
                       <tbody>
-                          <tr tabIndex="0" className="focus:outline-none h-16 border border-gray-100">
+                          <tr tabindex="0" className="focus:outline-none h-16 border border-gray-100">
                               <td>
                                   <div className="ml-5">
                                       <div className="bg-gray-200 rounded-sm w-5 h-5 flex flex-shrink-0 justify-center items-center relative">
@@ -112,7 +37,7 @@ function UsersTable() {
                               <td className="">
                                   <div className="flex items-center pl-4">
                                       <div className="w-10 h-9 mr-2 sm:mr-2">
-                                          <img className="rounded-full w-9 h-9 object-fit" src={require("../assets/images/user_photo.png")} alt="Foto do Usuário" />
+                                          <img className="rounded-full w-9 h-9 object-fit" src={User} alt="Foto do Usuário" />
                                       </div>
                                       <div className="font-medium text-gray-800">Matheus Telles</div>
                                   </div>
@@ -150,7 +75,7 @@ function UsersTable() {
                               <td>
                                   <div className="relative px-5 pt-2">
                                       <button className="focus:ring-2 rounded-md focus:outline-none" aria-label="option">
-                                          <svg className="dropbtn" onClick="dropdownFunction(this)" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                          <svg className="dropbtn" onclick="dropdownFunction(this)" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                               <path d="M4.16667 10.8332C4.62691 10.8332 5 10.4601 5 9.99984C5 9.5396 4.62691 9.1665 4.16667 9.1665C3.70643 9.1665 3.33334 9.5396 3.33334 9.99984C3.33334 10.4601 3.70643 10.8332 4.16667 10.8332Z" stroke="#9CA3AF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
                                               <path d="M10 10.8332C10.4602 10.8332 10.8333 10.4601 10.8333 9.99984C10.8333 9.5396 10.4602 9.1665 10 9.1665C9.53976 9.1665 9.16666 9.5396 9.16666 9.99984C9.16666 10.4601 9.53976 10.8332 10 10.8332Z" stroke="#9CA3AF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
                                               <path d="M15.8333 10.8332C16.2936 10.8332 16.6667 10.4601 16.6667 9.99984C16.6667 9.5396 16.2936 9.1665 15.8333 9.1665C15.3731 9.1665 15 9.5396 15 9.99984C15 10.4601 15.3731 10.8332 15.8333 10.8332Z" stroke="#9CA3AF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
