@@ -26,7 +26,7 @@ function UsersTable() {
     <table className="mt-4">
       <thead>
         <tr>
-          <td className="py-1 text-sm text-gray-400">Id</td>
+          <td className="py-1 text-sm text-black font-semibold">Id</td>
           <td className="py-1 text-sm text-gray-400">Data de cadastro</td>
           <td className="py-1 text-sm text-gray-400">Nome</td>
           <td className="py-1 text-sm text-gray-400">Função</td>
@@ -36,8 +36,8 @@ function UsersTable() {
       <tbody>
         <tr className="border-b border-gray-700 last:border-none">
           <td className="py-4">
-            <span className="text-sm font-medium text-gray-400">
-              #01
+            <span className="text-sm font-medium text-black">
+              01
             </span>
           </td>
           <td className="py-4">
@@ -65,8 +65,8 @@ function UsersTable() {
         </tr>
         <tr className="border-b border-gray-700 last:border-none">
           <td className="py-4">
-            <span className="text-sm font-medium text-gray-400">
-              #02
+            <span className="text-sm font-medium text-black">
+              02
             </span>
           </td>
           <td className="py-4">
