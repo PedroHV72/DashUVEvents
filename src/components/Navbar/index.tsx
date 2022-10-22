@@ -2,7 +2,6 @@ function Navbar () {
     return (
         <nav className="flex items-center gap-x-6">
             <div className="flex w-3/5 items-center justify-between">
-              <h1 className="text-[30px] font-bold text-black">Dashboard</h1>
               <div className="flex items-center gap-x-2">
                 <div className="relative">
                   <span className="pointer-events-none absolute inset-y-0 flex items-center px-3">
@@ -32,8 +31,8 @@ function Navbar () {
                 </button>
               </div>
             </div>
-            <div className="flex w-2/5 items-center justify-between">
-              <div className="flex items-center gap-x-2.5">
+            <div className="flex w-2/5 items-center justify-end">
+              <div className="flex items-center gap-x-2.5 mr-5">
                 <button className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-gray-400 hover:bg-primary hover:text-white">
                   <svg
                     fill="none"

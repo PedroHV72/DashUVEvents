@@ -26,17 +26,17 @@ function UsersTable() {
     <table className="mt-4">
       <thead>
         <tr>
-          <td className="py-1 text-sm text-black font-semibold">Id</td>
-          <td className="py-1 text-sm text-gray-400">Data de cadastro</td>
-          <td className="py-1 text-sm text-gray-400">Nome</td>
-          <td className="py-1 text-sm text-gray-400">Função</td>
-          <td className="py-1 text-sm text-gray-400">Status</td>
+          <td className="py-1 text-sm text-gray-600 font-semibold">Id</td>
+          <td className="py-1 text-sm text-gray-600 font-semibold">Data de cadastro</td>
+          <td className="py-1 text-sm text-gray-600 font-semibold">Nome</td>
+          <td className="py-1 text-sm text-gray-600 font-semibold">Função</td>
+          <td className="py-1 text-sm text-gray-600 font-semibold">Status</td>
         </tr>
       </thead>
       <tbody>
-        <tr className="border-b border-gray-700 last:border-none">
+        <tr className="border-b border-gray-200 last:border-none">
           <td className="py-4">
-            <span className="text-sm font-medium text-black">
+            <span className="text-sm font-medium text-gray-400">
               01
             </span>
           </td>
@@ -65,7 +65,7 @@ function UsersTable() {
         </tr>
         <tr className="border-b border-gray-700 last:border-none">
           <td className="py-4">
-            <span className="text-sm font-medium text-black">
+            <span className="text-sm font-medium text-gray-400">
               02
             </span>
           </td>
